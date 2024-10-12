@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet Adoption Form</title>
+</head>
+<body>
+    <h1>Pet Adoption Application</h1>
+
+    <!-- image link -->
+     <div>
+     <img src="./images/Dog.jpg" alt="The image is not available" height="200px" width="300px">
+     </div>
+
+        <form action="#" method="post">
+         <fieldset>
+            <legend>Personal Information</legend>
+            <label for="name">Full Name: </label>
+            <input type="text" id="name" name="name" required>
+            <br>
+            <br>
+            <label for="email">Email: </label>
+            <input type="email" id="email" name="email" required>
+            <br>
+            <br>
+            <label for="phonenumber">Phone: </label>
+            <input type="tel" id="phonenumber" name="phone" required>
+            <br>
+            <br>
+         </fieldset>
+        </form>
+
+        <form action="#" method="post">
+            <fieldset>
+                <legend>Pet Preference</legend>
+                 <label for="options">Type of Pet:</label>
+                 <select name="preference" id="options" required>
+                    <option value="">Select One</option>
+                    <option value="dog">Dog</option>
+                    <option value="cat">Cat</option>
+                    <option value="bird">Bird</option>
+                    <option value="other">Other</option>
+                 </select>
+                 <br><br>
+
+                 <label>Age Range: </label>
+                 <br>
+                 <input type="radio" name="young" id="young" value="young" required>
+                 <label for="young">Young</label>
+                 <br>
+                 <input type="radio" name="adult" id="adult" value="adult" required>
+                 <label for="adult">Adult</label>
+                 <br>
+                 <input type="radio" name="senior" id="senior" value="senior" required>
+                 <label for="senior">Senior</label>
+                 <br>
+                 <br>
+                 <label for="box">Why do you want to adopt a pet? </label>
+                 <br>
+                 <textarea name="box" id="box" rows="4" cols="50"></textarea>
+            </fieldset>
+        </form>
+
+        <br>
+
+        <button>Submit Application </button>
+         
+        <h2>Watch Cute Puppy Videos</h2>
+
+        <!-- video link -->
+         <video width="320" height="240" controls>
+            <source src="./dog_video.mp4" type="video/mp4" />
+
+
+</body>
+</html>
