@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questionnaire</title>
+</head>
+<body>
+    <h1>Website Design Questionnaire</h1>
+    <p>Please fill out this questionnaire to help us better understand your project requirements.</p>
+
+    <main>
+      <form action="#" method = "post">
+        <!-- General Information -->
+    <section class="General-info">
+      <h2>General Information</h2>
+        <label for="name">Name: </label>
+        <input type="text" name="name" id="name" required>
+        <br>
+        <label for="email">Email: </label>
+        <input type="email" name="email" id="email" required>
+        <br>
+        <label for="company">Company: </label>
+        <input type="text" name="company" id="company" required>
+      </section>
+
+        <!-- Project Details -->
+         <section class="Project-details">
+          <h2>Project Details</h2>
+          <label for="options">Project Type: </label>
+            <select name="type" id="options" required>
+            <option value="type">Select Project Type</option>
+            <option value="site">Website</option>
+            <option value="app">Web Application</option>
+            <option value="e-com">E-Commerce</option>
+            <option value="other">Other</option>
+          </select>
+          <br>
+          <label for="des">Project Description: </label>
+          <textarea name="des" id="des" rows="4" cols="20" required></textarea>
+          <br>
+          <label for="audi">Target Audience: </label>
+          <input type="text" id="audi" name="audi" required>
+         </section>
+
+         <!-- Design Preferences -->
+          <section class="design-preferences">
+            <h2>Design Preferences</h2>
+            <label for="color">Color Scheme: </label>
+            <input type="text" id="color" name="color" required>
+            <br>
+            <label for="audi">Font Preferences: </label>
+            <input type="text" id="font" name="font" required>
+            <br>
+            <label for="style">Style Preferences: </label>
+            <input type="text" id="style" name="style" required>
+          </section>
+
+          <!-- Additional Information -->
+           <section class="additional-info">
+            <h2>Additional Information</h2>
+          <label for="budget">Budget: </label>
+          <input type="text" id="budget" name="budget" required>
+          <br>
+          <label for="timeline">Timeline: </label>
+          <input type="text" id="timeline" name="timeline" placeholder="e.g., 3 months" required>
+          <br>
+          <label for="notes">Additional Notes: </label>
+          <textarea name="notes" id="notes" rows="4" cols="20"></textarea>
+          <br>
+          <button>Submit Questionnaire</button>
+          </section>
+      </form>
+    </main>
+
+    <footer>
+      <p>&copy; 2023 Questionnaire. All rights reserved.</p>
+    </footer>
+</body>
+</html>
